@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="portfolio3_students.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.js">
+  <title>Students</title>
+</head>
+<body>
+       <div class="box1">Welcome Your Account</div>
+       <div class="box2">
+         <div class="box3">
+           <label for="s_name" class="labell">Name: </label>
+           <span type="text" id="s_name" class="inputt"></span><br><br>
+           <label for="s_sur" class="labell">Surname: </label> 
+           <span type="text" id="s_sur" class="inputt"></span><br><br>
+           <label for="s_fat" class="labell">Father Name: </label> 
+           <span type="text" id="s_fat" class="inputt"></span><br><br>
+           <label for="s_gen" class="labell">Gender: </label> 
+           <span type="text" id="s_gen" class="inputt"></span><br><br>
+         </div>
+         <div class="box4"> 
+           <label for="s_mail" class="labell">Gmail: </label>
+           <span type="email" id="s_mail" class="inputt"></span><br><br>
+           <label for="s_number" class="labell">Phone Number: </label> 
+           <span type="text" id="s_number" class="inputt"></span><br><br>
+           <div class="img"><img src="images_kabinet/vid3.jpg"></div>
+         </div>
+       </div>
+    <label for="balans" class="balansLabel">Your Balance</label><br>
+    <span class="btn btn-primary balans" id="balans">0</span> <button class="btn btn-primary add" data-bs-toggle="modal" data-bs-target="#exampleModal">Add</button>
+    
+    <label for="user" class="userlabel">Your user and password</label>
+    <input type="text" id="user" class="user"> <input type="text" id="pass" class="user"> 
+   
+          <select class="sec2" id="selected" onchange="getSelectValue();">
+            <option>U n i v e r s i t y  f o r  B a c h e l o r s</option>
+            <option value="op1" id="op111">Academy of Public Adminstration under President of The Republic of Azerbaijan</option>
+            <option value="op2">Azerbaijan State Univercity of Oil and Industry</option>
+            <option value="op3">Baku State University</option>
+            <option value="op4">Baku Higher Oil School</option>
+            <option value="op5">Caspian University</option>
+            <option value="op6">Azerbaijan State Languages University</option>
+            <option value="op7">Azerbaijan State Economic University</option>
+          </select>
+          <select class="sec3" id="selected1" onchange="getSelectValue2();">
+            <option>U n i v e r s i t y  f o r  M a s t e r</option>
+            <option value="op11" id="op1111">Academy of Public Adminstration under President of The Republic of Azerbaijan</option>
+            <option value="op22">Azerbaijan State Univercity of Oil and Industry</option>
+            <option value="op33">Baku State University</option>
+            <option value="op44">Baku Higher Oil School</option>
+            <option value="op55">Caspian University</option>
+            <option value="op66">Azerbaijan State Languages University</option>
+            <option value="op77">Azerbaijan State Economic University</option>
+          </select>
+<form action="index.html">
+   <span id="ortaq_uni" style="display: none;"></span>
+   <label for="code" class="code1" id="code1">Your Code</label><br>
+   <span id="code" class="code">0</span> <button class="btn btn-primary enter" id="enter">Enter Home for result of exam</button>
+</form>
+
+
+<div id="uni1">
+  <table class="table">
+    <tr>
+      <th>1</th>
+      <th>Teachers</th>
+      <th>Teachers' Phone Nmber</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Südabə Əmrəliyeva</td>
+      <td>077-545-34-69</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Safura Mirəliyev</td>
+      <td>077-247-36-90</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Gülnar Qafur</td>
+      <td>055-789-32-65</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Turan Əliyev</td>
+      <td>050-505-29-13</td>
+    </tr>
+  </table>
+   <img src="images_kabinet/dia.jpg" class="img11">
+  <div class="uni">
+    Azərbaycan Respublikasının Prezidenti yanında Dövlət İdarəçilik Akademiyası və ya qısaca DİA – Azərbaycan Respublikası Təhsil Nazirliyinin tabeliyində olan ali təhsil müəssisəsi. Azərbaycan Respublikası Prezidentinin 3 yanvar 1999-cu il tarixli 60 saylı fərmanı ilə Bakı Sosial İdarəetmə və Politologiya İnstitutunun əsasında yaradılmış elm və təhsil müəssisəsidir. Bir neçə dəfə "İlin təhsil müəssisəsi" seçilmişdir.
+  </div>
+</div>
+
+<div id="uni2">
+  <table class="table">
+    <tr>
+      <th>1</th>
+      <th>Teachers</th>
+      <th>Teachers' Phone Nmber</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Ağa Mehdi Əmrəliyev</td>
+      <td>050-545-34-23</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ruslan Mirəliyev</td>
+      <td>070-245-36-45</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Gülnar Sudaylı</td>
+      <td>051-787-32-65</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Tural Əliyev</td>
+      <td>050-505-29-13</td>
+    </tr>
+  </table>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Az..jpg/250px-Az..jpg" class="img11">
+  <div class="uni">Azərbaycan Dövlət Neft və Sənaye Universiteti və ya qısaca ADNSU — Azərbaycan Respublikası Təhsil Nazirliyinin tabeliyində olan ali təhsil müəssisəsi.Universitetin tarixi 1887-ci ildən başlayır. 10 noyabr 1887-ci ildə Bakı şəhər duması tərəfindən Bakıda texniki məktəbin yaradılması haqqında qərar çıxarılmışdır. 1896-cı ildə texniki məktəb "Bakı aşağı səviyyəli texniki məktəbə" çevrilmişdir. 1896–1905-ci illər ərzində bu məktəbin mexanika şöbəsi üzrə 50 nəfər, inşaat şöbəsi üzrə isə 55 nəfər buraxılışı olmuşdur. 1910-cu ildə mexanika şöbəsinə neft-texniki və elektromexanika istiqamətlər daxil idi.
+  </div>
+</div>
+
+
+<div id="uni3">
+  <table class="table">
+    <tr>
+      <th>1</th>
+      <th>Teachers</th>
+      <th>Teachers' Phone Nmber</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Ağa Mehdi Əmrəliyev</td>
+      <td>050-545-34-23</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ruslan Mirəliyev</td>
+      <td>070-245-36-45</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Gülnar Sudaylı</td>
+      <td>051-787-32-65</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Tural Əliyev</td>
+      <td>050-505-29-13</td>
+    </tr>
+  </table>
+  <img src="images_kabinet/baku.jpg" class="img11">
+  <div class="uni">
+    Bakı Dövlət Universiteti və ya qısaca BDU — Azərbaycan Respublikası Təhsil Nazirliyinin tabeliyində olan ali təhsil müəssisəsi. Azərbaycanın ilk ali təhsil müəssisəsidir. Azərbaycan Xalq Cümhuriyyətinin Parlamentinin 1 sentyabr 1919-cu il tarixli iclasında Bakıda universitetin təsis edilməsi qərarı qəbul edildi və onun nizamnaməsi təsdiq olundu. Universitet ilk tədris ilini 2 fakültə ilə — tarix-filologiya, tibb fakültələri və 1094 tələbə ilə başladı. Universitetin ilk rektoru Kazan Universitetinin professoru, məşhur cərrah V.İ.Razumovski olmuşdur.
+  </div>
+</div>
+
+
+<div id="uni4">
+  <table class="table">
+    <tr>
+      <th>1</th>
+      <th>Teachers</th>
+      <th>Teachers' Phone Nmber</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Aydın Qafarlı</td>
+      <td>055-545-34-09</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Zeynal Zeynalov</td>
+      <td>051-245-36-90</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Əhməd Səmədli</td>
+      <td>051-787-32-65</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Seymur Girdənili</td>
+      <td>050-505-29-13</td>
+    </tr>
+  </table>
+   <img src="images_kabinet/ali.jpg" class="img11">
+  <div class="uni">
+    Bakı Ali Neft Məktəbi və ya qısaca: BANM — Azərbaycanda dövlət ali təhsil müəssisəsi. Azərbaycan Respublikası Dövlət Neft Şirkətinin strukturuna daxildir.Azərbaycan ali təhsil orqanlari sırasına yeni daxil edilmiş Bakı Ali Neft Məktəbi, Azərbaycan Respublikasının Prezidenti cənab İlham Əliyevin 29 noyabr 2011-ci il tarixli Fərmanı əsasında ARDNŞ-nin tərkibində yaradılmışdır. Bakı Ali Neft Məktəbinin tələbələri nəzəri bilikləri mənimsəməklə yanaşı ARDNŞ-nin müəssisə və təşkilatlarında peşə təlimi və istehsalat təcrübəsi də keçirlər. Bu məqsədlə BANM-in tədris infrastrukturu ən müasir təlim avadanlıqları ilə təchiz olunmuşdur.
+  </div>
+</div>
+
+
+<div id="uni5">
+  <table class="table">
+    <tr>
+      <th>1</th>
+      <th>Teachers</th>
+      <th>Teachers' Phone Nmber</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Ağa Mehdi Əmrəliyev</td>
+      <td>050-545-34-23</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ruslan Mirəliyev</td>
+      <td>070-245-36-45</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Gülnar Sudaylı</td>
+      <td>051-787-32-65</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Tural Əliyev</td>
+      <td>050-505-29-13</td>
+    </tr>
+  </table>
+   <img src="images_kabinet/xezer.jpg" class="img11">
+  <div class="uni">
+    Xəzər Universiteti — Azərbaycanda rəsmi fəaliyyətə başlamış ilk özəl ali məktəbdir. Xəzər Universiteti Fizika-riyaziyyat elmləri doktoru, professor Hamlet İsaxanlı tərəfindən təsis olunmuşdur. Keçmiş SSRİ-də ilk ingilisdilli özəl ali məktəb olan Xəzər Universiteti 1991-ci il martın 18-də Azərbaycan Respublikası Nazirlər Kabinetinin 41 saylı qərarı ilə, Azərbaycanda beynəlxalq standartlara uyğun kadrlara, eləcə də ingilisdilli mütəxəssislərə olan kəskin ehtiyacı ödəmək məqsədilə yaradılmışdır "Xəzər"in Sorağında. Bir qədər əvvəl – 1990-cı il dekabrın 20-də Nazirlər Sovetinin 286 saylı sərəncamına əsasən bu ali məktəbin yaradılması üçün hazırlıq işləri aparılmışdı. Bundan sonra Xəzər Universiteti bir neçə dəfə yenidən akkreditasiya edilmiş və fəaliyyətinə lisenziya verilmişdir:
+  </div>
+</div>
+
+
+<div id="uni6">
+  <table class="table">
+    <tr>
+      <th>1</th>
+      <th>Teachers</th>
+      <th>Teachers' Phone Nmber</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Tural Qafarov</td>
+      <td>050-345-34-12</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Zaur Asiyev</td>
+      <td>077-245-98-45</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Gülnar Sudaylı</td>
+      <td>055-787-32-87</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Aydın Gürcü</td>
+      <td>050-585-20-15</td>
+    </tr>
+  </table>
+   <img src="images_kabinet/dil.jpg" class="img11">
+  <div class="uni">
+    Azərbaycan Dillər Universiteti və ya qısaca ADU — Azərbaycan Respublikası Təhsil Nazirliyinin tabeliyində olan ali təhsil müəssisəsi. Azərbaycanın ali məktəblərində xarici dillərin tədrisinə keçən əsrin 20-ci illərində başlanmış, 1936/1937-ci tədris ilində isə ilk dəfə olaraq Azərbaycan Pedaqoji İnstitutunda (APİ) müstəqil Xarici dillər kafedrası yaradılmışdır. Lakin xarici dilləri tədris edən milli pedaqoji kadrlar çatışmadığından Azərbaycan Xalq Komissarlar Soveti 1937-ci il oktyabr ayının 9-da “Azərbaycan Pedaqoji İnstitutunda Xarici dillər fakültəsinin təşkil edilməsi haqqında” qərar qəbul etdi. 1937/1938-ci tədris ilində fakültəyə 175 nəfər qəbul edildi: ingilis dilinə 59 nəfər, alman dilinə 92 nəfər, fransız dilinə 24 nəfər
+  </div>
+</div>
+
+
+<div id="uni7">
+  <table class="table">
+    <tr>
+      <th>1</th>
+      <th>Teachers</th>
+      <th>Teachers' Phone Nmber</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Turanə Gül</td>
+      <td>077-596-34-29</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Ruslan Mirəliyev</td>
+      <td>070-245-36-45</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Qaçqın Əliyev</td>
+      <td>051-787-32-65</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Elvar Ümidli</td>
+      <td>050-505-29-13</td>
+    </tr>
+  </table>
+   <img src="images_kabinet/iqt.jpg" class="img11">
+  <div class="uni">
+    Azərbaycan Dövlət İqtisad Universiteti — Azərbaycan Respublikası Təhsil Nazirliyinin tabeliyində olan Ali təhsil müəssisəsi. Azərbaycanda ali təhsilli iqtisadçı kadrların hazırlanmasına keçən əsrin 20-ci illərindən başlanmışdır. Belə ki, ilkin olaraq Azərbaycan İnqilab Komitəsi tərəfındən yaradılan Politexnik İnstitutunun 5 fakültəsindən biri İqtisad fakültəsi olmuşdur. 1922-ci ildə isə Azərbaycan Dövlət Universitetinin İctimai Elmlər fakültəsində İqtisad bölməsi açılmış və bu bölmə 1930-cu ilə qədər iqtisadçı kadrlar hazırlamışdır.
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Card</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form action="index.html">
+        <label for="input_6" class="inputlabel">Add Number</label>
+        <input type="text" id="input_6" class="input"><br><br>
+        <label for="input_7" class="inputlabel">Month/Year</label>
+        <input type="password" id="input_7" class="input"><br><br>
+        <label for="input_8" class="inputlabel">CIV</label>
+        <input type="password" id="input_8" class="input" >
+       </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save2">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="bootstrap.js"></script>
+<script type="text/javascript">
+
+  document.getElementById("s_name").textContent=localStorage.getItem("text1");
+  document.getElementById("s_sur").textContent=localStorage.getItem("text2");
+  document.getElementById("s_fat").textContent=localStorage.getItem("text3");
+  document.getElementById("s_mail").textContent=localStorage.getItem("text4");
+  document.getElementById("s_number").textContent=localStorage.getItem("text5");
+  document.getElementById("user").value=localStorage.getItem("text6");
+  document.getElementById("pass").value=localStorage.getItem("text7");
+  document.getElementById("s_gen").textContent=localStorage.getItem("text8");
+  var code, code1;
+  code=document.getElementById('code');
+  code1=document.getElementById('code1');
+  code.style.display="none";
+  code1.style.display="none";
+  enter.style.display="none"
+  function getSelectValue() {  //<select id="selected" onchange="getSelectedValue();">
+    var seleted= document.getElementById("selected");
+    var texts = seleted.options[seleted.selectedIndex].text;
+
+           code1.style.display="block";
+           code.style.display="block";
+           enter.style.display="block";
+
+    if (texts=="Academy of Public Adminstration under President of The Republic of Azerbaijan") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "DIA1";
+           ortaq_uni.textContent=texts;
+           uni1.style.display="block"; 
+           uni7.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none";
+    }
+    if (texts=="Azerbaijan State Univercity of Oil and Industry") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "ADNSU1";   
+           ortaq_uni.textContent=texts; 
+           uni2.style.display="block"; 
+           uni1.style.display="none"; 
+           uni7.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none";    
+    }
+    if (texts=="Baku State University") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "BDU1"; 
+           ortaq_uni.textContent=texts; 
+           uni3.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni7.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none";    
+    }
+    if (texts=="Baku Higher Oil School") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "BHOS1";  
+           ortaq_uni.textContent=texts;   
+           uni4.style.display="block";  
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni7.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none"; 
+    }
+    if (texts=="Caspian University") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "XU1"; 
+           ortaq_uni.textContent=texts; 
+           uni5.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni7.style.display="none"; 
+           uni6.style.display="none";   
+    }
+    if (texts=="Azerbaijan State Languages University") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "ADDU1";  
+           ortaq_uni.textContent=texts;
+           uni6.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni7.style.display="none";     
+    }
+    if (texts=="Azerbaijan State Economic University") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "ADIU1";  
+           ortaq_uni.textContent=texts; 
+           uni7.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none";   
+    }
+  }
+  function getSelectValue2() {  //<select id="selected" onchange="getSelectedValue();">
+    var selected1= document.getElementById("selected1");
+    var texts = selected1.options[selected1.selectedIndex].text;
+
+           code1.style.display="block";
+           code.style.display="block";
+           enter.style.display="block";
+
+    if (texts=="Academy of Public Adminstration under President of The Republic of Azerbaijan") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "DIA2";
+           ortaq_uni.textContent=texts;
+           uni1.style.display="block"; 
+           uni7.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none";
+    }
+    if (texts=="Azerbaijan State Univercity of Oil and Industry") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "ADNSU2"; 
+           ortaq_uni.textContent=texts;
+           uni2.style.display="block"; 
+           uni1.style.display="none"; 
+           uni7.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none";
+    }
+    if (texts=="Baku State University") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "BDU2";    
+           ortaq_uni.textContent=texts;
+           uni3.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni7.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none"; 
+    }
+    if (texts=="Baku Higher Oil School") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "BHOS2";  
+           ortaq_uni.textContent=texts;
+           uni4.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni7.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none"; 
+    }
+    if (texts=="Caspian University") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "XU2"; 
+           ortaq_uni.textContent=texts; 
+           uni5.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni7.style.display="none"; 
+           uni6.style.display="none";      
+    }
+    if (texts=="Azerbaijan State Languages University") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "ADDU2"; 
+           ortaq_uni.textContent=texts; 
+           uni6.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni7.style.display="none";    
+    }
+    if (texts=="Azerbaijan State Economic University") {
+           document.getElementById('code').innerHTML=user.value + pass.value + "ADIU2";  
+           ortaq_uni.textContent=texts;  
+           uni7.style.display="block"; 
+           uni1.style.display="none"; 
+           uni2.style.display="none";
+           uni3.style.display="none";
+           uni4.style.display="none";
+           uni5.style.display="none"; 
+           uni6.style.display="none";  
+    }
+  }
+
+enter.onclick=function() {
+
+  var code=document.getElementById("user").value;
+  localStorage.setItem("metn1", code);
+  var code=document.getElementById("pass").value;
+  localStorage.setItem("metn2", code);
+  var code=document.getElementById("code").innerHTML;
+  localStorage.setItem("metn3", code);
+
+  var ortaq_uni=document.getElementById("ortaq_uni").innerHTML;
+  localStorage.setItem("metn_uni", ortaq_uni);
+
+  var tablee1=document.getElementById("s_name").textContent;
+  localStorage.setItem("yer3", tablee1);
+
+  var tablee2=document.getElementById("s_sur").textContent;
+  localStorage.setItem("yer4", tablee2);
+
+  var tablee3=document.getElementById("s_fat").textContent;
+  localStorage.setItem("yer5", tablee3);
+
+  return true;
+
+} 
+
+</script>
+</body>
+</html>

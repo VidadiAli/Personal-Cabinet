@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="portfolio3.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.js">
+	<title>Personal Cabinet</title>
+</head>
+<body>
+  <div class="span1">Personal Cabinet for Students</div><br><br>
+    
+        <span class="span2">Personal Cabinet</span>
+        <hr>
+    		<div class="box1">
+    			<button type="button" class="btn btn-primary btn1" data-bs-toggle="modal" data-bs-target="#exampleModal1">Sign Up</button>
+    			<button type="button" class="btn btn-primary btn2" data-bs-toggle="modal" data-bs-target="#exampleModal2">Sign In</button>
+    		</div>
+    		<div class="box2">
+                 <div id="box2_div">U n i v e r s i t i e s</div>
+    			<section class="sec1" id="sec1">
+                 <div class="sec3_div" id="div1" data-bs-toggle="modal" data-bs-target="#exampleModal3">Academy of Public Adminstration under President of The Republic of Azerbaijan</div>
+                 <div class="sec3_div" id="div2" data-bs-toggle="modal" data-bs-target="#exampleModal4">Azerbaijan State Univercity of Oil and Industry</div>
+                 <div class="sec3_div" id="div3" data-bs-toggle="modal" data-bs-target="#exampleModal5">Baku State University</div>
+                 <div class="sec3_div" id="div4" data-bs-toggle="modal" data-bs-target="#exampleModal6">Baku Higher Oil School</div>
+                 <div class="sec3_div" id="div5" data-bs-toggle="modal" data-bs-target="#exampleModal7">Caspian University</div>
+                 <div class="sec3_div" id="div6" data-bs-toggle="modal" data-bs-target="#exampleModal8">Azerbaijan State Languages University</div>
+                 <div class="sec3_div" id="div7" data-bs-toggle="modal" data-bs-target="#exampleModal9">Azerbaijan State Economic University</div>
+    			</section>
+    		</div>
+
+        <div class="box3" id="box3">
+          İlk öncə gedişatı anlayaq! Saytdan istifadə edə bilmək üçün <ins>Sign Up</ins> düyməsinə click edib, qeydiyyatdan keçməlisiniz, sonra isə <ins>Sign İn</ins> düyməsi vasitəsi ilə sayta daxil olmalısın. Sayta daxil olduqdan sonra Magistr pilləsi üzrə tələbəsinizsə <ins>"Universsity for Master"</ins> düyməsini, yox əgər Bakalavr tələbəsinizsə, o zaman da <ins>"University for Bachelors"</ins> düyməsini seçib təhsil aldığınız universitetin adını qeyd edib, qiymətlərinizi və gündəlik prosesləri öyrənmək üçün lazım olan əvvəlcədən sizin üçün hazırlanmış kodu əldə edə bilərsiniz. Kodu əldə etdikdən sonra Ana səhifəyə geri qayıdıb <ins>"U n i v e r s i t i e s"</ins> yazısını tıklayaraq təhsil aldığınız universitetin adını seçərək uyğun məlumatları əlavə etdikdən sonra sayta daxil ola bilərsiniz. 
+           Həmçinin siz bu saytda istədiyiniz miqdarda pulu saxlaya bilər və istədiyiniz zaman o puldan istifadə edə bilərsiniz.   <ins>Welcome Your Account</ins> saytında həmçinin təhsil aldığınız universitet, ixtisasınız, müəllimləriniz və qrup yoldaşlarınız haqqında qısa məlumlatlarla da tanış ola bilərsiniz. Azərbaycan Dövlət Təhsil Nazırliyinin nəznində inkişaf etdirilən bu sayt daima sizin qulluğunuzdadır. Yetərki Azərbaycan tələbələri aydın gələcəyimizin layiqli nümayəndələri ola bilsinlər :)...
+        </div> <button class="btn btn-primary" id="btntring">Ingilis dilinə tərcümə et...</button>
+        <div class="box3_2" id="box3_2" style="display: none;">
+          First of all, let's understand the process! To use the site, you must click the <ins> Sign Up </ins> button to register, and then log in to the site using the <ins> Sign In </ins> button. After entering the site, select the <ins> "University for Master" </ins> button if you are a Master's student, and the <ins> "University for Bachelors" </ins> button if you are a Bachelor's student. , you can get the code prepared in advance for you, which is needed to learn your prices and daily processes. After receiving the code, you can go back to the Home page, click on <ins> "U n i v e r s i t i e s" </ins>, select the name of the university where you studied and add the relevant information.
+           You can also save as much money as you want on this site and use that money whenever you want. At <ins> Welcome Your Account </ins>, you can also find brief information about your university, specialty, teachers and teammates. This site, developed under the auspices of the Ministry of Education of Azerbaijan, is always at your service. Let enough Azerbaijani students be worthy representatives of our clear future :) ...
+        </div> <button class="btn btn-primary" id="btntraz" style="display:none;">Translate Azerbaijani...</button>
+    	
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="input1" class="inputlabel">Name</label>
+        <input type="text" id="input1" class="input"><br><br>
+        <label for="input2" class="inputlabel">Surname</label>
+        <input type="text" id="input2" class="input"><br><br>
+        <label for="input3" class="inputlabel">Father Name</label>
+        <input type="text" id="input3" class="input"><br><br>
+        <label for="input4" class="inputlabel">Email</label>
+        <input type="gmail" id="input4" name="input4" class="input"><br><br>
+        <label for="input5" class="inputlabel">Phone</label>
+        <input type="text" id="input5" class="input"><br><br>
+        <label id="select" class="inputlabel">Gender</label>
+        <select class="input" id="selected" onchange="getSelectValue();">
+          <option>Gender</option>
+          <option>Man</option>
+          <option>Woman</option>
+          <option>I don't say</option>
+        </select><br><br>
+        <label for="input6" class="inputlabel">Username</label>
+        <input type="text" id="input6" class="input" placeholder="user: "><br><br>
+        <label for="input7" class="inputlabel">Password</label>
+        <input type="password" id="input7" class="input" placeholder="password: ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save1">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form action="portfolio3_students.html">
+        <label for="input8" class="inputlabel">Username</label>
+        <input type="text" id="input8" class="input" placeholder="user: "><br><br>
+        <label for="input9" class="inputlabel">Password</label>
+        <input type="password" id="input9" class="input" placeholder="password: ">
+       </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save2">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="input_div1" class="inputlabel">Username</label>
+        <input type="text" id="input_div1" class="input" placeholder="user: "><br><br>
+        <label for="input_div2" class="inputlabel">Password</label>
+        <input type="password" id="input_div2" class="input" placeholder="password: "><br><br>
+        <label for="input_div3" class="inputlabel">Your Code</label>
+        <input type="text" id="input_div3" class="input" placeholder="your code: ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save3">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="input_div11" class="inputlabel">Username</label>
+        <input type="text" id="input_div11" class="input" placeholder="user: "><br><br>
+        <label for="input_div22" class="inputlabel">Password</label>
+        <input type="password" id="input_div22" class="input" placeholder="password: "><br><br>
+        <label for="input_div33" class="inputlabel">Your Code</label>
+        <input type="text" id="input_div33" class="input" placeholder="your code: ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save4">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="input_div111" class="inputlabel">Username</label>
+        <input type="text" id="input_div111" class="input" placeholder="user: "><br><br>
+        <label for="input_div222" class="inputlabel">Password</label>
+        <input type="password" id="input_div222" class="input" placeholder="password: "><br><br>
+        <label for="input_div333" class="inputlabel">Your Code</label>
+        <input type="text" id="input_div333" class="input" placeholder="your code: ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save5">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="input_div1111" class="inputlabel">Username</label>
+        <input type="text" id="input_div1111" class="input" placeholder="user: "><br><br>
+        <label for="input_div2222" class="inputlabel">Password</label>
+        <input type="password" id="input_div2222" class="input" placeholder="password: "><br><br>
+        <label for="input_div3333" class="inputlabel">Your Code</label>
+        <input type="text" id="input_div3333" class="input" placeholder="your code: ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save6">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="input_div11111" class="inputlabel">Username</label>
+        <input type="text" id="input_div11111" class="input" placeholder="user: "><br><br>
+        <label for="input_div22222" class="inputlabel">Password</label>
+        <input type="password" id="input_div22222" class="input" placeholder="password: "><br><br>
+        <label for="input_div33333" class="inputlabel">Your Code</label>
+        <input type="text" id="input_div33333" class="input" placeholder="your code: ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save7">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="input_div111111" class="inputlabel">Username</label>
+        <input type="text" id="input_div111111" class="input" placeholder="user: "><br><br>
+        <label for="input_div222222" class="inputlabel">Password</label>
+        <input type="password" id="input_div222222" class="input" placeholder="password: "><br><br>
+        <label for="input_div333333" class="inputlabel">Your Code</label>
+        <input type="text" id="input_div333333" class="input" placeholder="your code: ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save8">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="input_div1111111" class="inputlabel">Username</label>
+        <input type="text" id="input_div1111111" class="input" placeholder="user: "><br><br>
+        <label for="input_div2222222" class="inputlabel">Password</label>
+        <input type="password" id="input_div2222222" class="input" placeholder="password: "><br><br>
+        <label for="input_div3333333" class="inputlabel">Your Code</label>
+        <input type="text" id="input_div3333333" class="input" placeholder="your code: ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save9">Enter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<span id="ortaq1" style="display: none;"></span>
+<span id="ortaq2" style="display: none;"></span>
+<span id="ortaq3" style="display: none;"></span>
+
+<span id="ortaq_unii" style="display: none;"></span>
+
+<span id="ortaq_index" style="display: none;"></span>
+
+<form action="portfolio3_table.html">
+<input type="text" id="table1" style="display: none;">
+<input type="text" id="table2" style="display: none;">
+</form>
+
+<script src="bootstrap.js"></script>
+<script type="text/javascript">
+
+  btntring.onclick=function() {
+    box3.style.display="none";
+    btntring.style.display="none";
+    box3_2.style.display="block";
+    btntraz.style.display="block";
+  }
+  btntraz.onclick=function() {
+    box3_2.style.display="none";
+    btntraz.style.display="none";
+    box3.style.display="block";
+    btntring.style.display="block";
+  }
+
+
+  save1.onclick=function() {
+    
+    if (input1.value=="" || input2.value=="" || input3.value=="" || input4.value=="" || input5.value=="" || input6.value=="" || input7.value=="") {
+      alert("You must fill in the All fuilds!");
+    }
+
+    var name1=document.getElementById("input1").value;
+    localStorage.setItem("text1", name1);
+
+    var name2=document.getElementById("input2").value;
+    localStorage.setItem("text2", name2);
+
+    var name3=document.getElementById("input3").value;
+    localStorage.setItem("text3", name3);
+
+    var name4=document.getElementById("input4").value;
+    localStorage.setItem("text4", name4);
+
+    var name5=document.getElementById("input5").value;
+    localStorage.setItem("text5", name5);
+
+    var name6=document.getElementById("input6").value;
+    localStorage.setItem("text6", name6);
+
+    var name7=document.getElementById("input7").value;
+    localStorage.setItem("text7", name7);
+
+    var name8=document.getElementById("selected").value;
+    localStorage.setItem("text8", name8);
+
+    return false;
+
+}
+
+  save2.onclick=function(){
+     if(input8.value==input6.value && input9.value==input7.value && input6.value!="" && input7.value!="") {
+        newwindow=window.open("portfolio3_students.html");
+     }
+     if(input8.value!=input6.value || input9.value!=input7.value){
+       alert("User or Password is wrong...");
+     }
+     if(input8.value=="" && input9.value=="" ){
+       alert("Enter user and password...");
+     }
+  }
+
+  box2_div.onclick=function() {
+     sec1.style.display="block";
+  }
+  div1.onclick=function() {
+    sec1.style.display="none";
+  }
+  div2.onclick=function() {
+    sec1.style.display="none";
+  }
+  div3.onclick=function() {
+    sec1.style.display="none";
+  }
+  div4.onclick=function() {
+    sec1.style.display="none";
+  }
+  div5.onclick=function() {
+    sec1.style.display="none";
+  }
+  div6.onclick=function() {
+    sec1.style.display="none";
+  }
+  div7.onclick=function() {
+    sec1.style.display="none";
+  }
+  
+
+  document.getElementById("ortaq1").textContent=localStorage.getItem("metn1");
+  document.getElementById("ortaq2").textContent=localStorage.getItem("metn2");
+  document.getElementById("ortaq3").textContent=localStorage.getItem("metn3");
+  document.getElementById("ortaq_unii").textContent=localStorage.getItem("metn_uni");
+  save3.onclick=function() {
+      if(input_div1.value==ortaq1.textContent && input_div2.value==ortaq2.textContent && input_div3.value==ortaq3.textContent && div1.textContent==ortaq_unii.textContent){
+
+          ortaq_index.textContent=ortaq3.textContent;
+
+          var a, b, c, d;
+          a=ortaq_index.textContent;
+          d=a.toString();
+          b=d.length-1;
+          c=d[b];
+          
+          if(c==1){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Bachelors for You";
+          }
+          if (c==2){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Master for You";
+          }
+
+          var ad1=document.getElementById("table1").value;
+          localStorage.setItem("yer1", ad1);
+          var ad2=document.getElementById("table2").value;
+          localStorage.setItem("yer2", ad2);
+
+          newwindow=window.open("portfolio3_table.html");
+      }
+      if (input_div1.value!=ortaq1.textContent || input_div2.value!=ortaq2.textContent || input_div3.value!=ortaq3.textContent || div1.textContent!=ortaq_unii.textContent) {
+        alert("Your code or Your password or Your user is wrong");
+      }
+      if (input_div1.value=="" || input_div2.value=="" || input_div3.value=="") {
+        alert("Enter your user, password and code.\nIf you don't Registr then go and Sign Up");
+      }
+  }
+  save4.onclick=function() {
+      if(input_div11.value==ortaq1.textContent && input_div22.value==ortaq2.textContent && input_div33.value==ortaq3.textContent && div2.textContent==ortaq_unii.textContent){
+          ortaq_index.textContent=ortaq3.textContent;
+
+          var a, b, c, d;
+          a=ortaq_index.textContent;
+          d=a.toString();
+          b=d.length-1;
+          c=d[b];
+
+          if(c==1){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Bachelors for You";
+          }
+          if(c==2){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Master for You";
+          }
+
+          var ad1=document.getElementById("table1").value;
+          localStorage.setItem("yer1", ad1);
+          var ad2=document.getElementById("table2").value;
+          localStorage.setItem("yer2", ad2);
+
+          newwindow=window.open("portfolio3_table.html");
+      }
+      if(input_div11.value!=ortaq1.textContent || input_div22.value!=ortaq2.textContent || input_div33.value!=ortaq3.textContent || div2.textContent!=ortaq_unii.textContent){
+          alert("Your code or Your password or Your user is wrong");
+      }
+      if (input_div11.value=="" || input_div22.value=="" || input_div33.value=="") {
+        alert("Enter your user, password and code.\nIf you don't Registr then go and Sign Up");
+      }
+  }
+  save5.onclick=function() {
+      if(input_div111.value==ortaq1.textContent && input_div222.value==ortaq2.textContent && input_div333.value==ortaq3.textContent && div3.textContent==ortaq_unii.textContent){
+          ortaq_index.textContent=ortaq3.textContent;
+
+          var a, b, c, d;
+          a=ortaq_index.textContent;
+          d=a.toString();
+          b=d.length-1;
+          c=d[b];
+
+          if(c==1){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Bachelors for You";
+          }
+          if(c==2){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Master for You";
+          }
+
+          var ad1=document.getElementById("table1").value;
+          localStorage.setItem("yer1", ad1);
+          var ad2=document.getElementById("table2").value;
+          localStorage.setItem("yer2", ad2);
+          
+          newwindow=window.open("portfolio3_table.html");
+      }
+      if(input_div111.value!=ortaq1.textContent || input_div222.value!=ortaq2.textContent || input_div333.value!=ortaq3.textContent || div3.textContent!=ortaq_unii.textContent){
+          alert("Your code or Your password or Your user is wrong");
+      }
+      if (input_div111.value=="" || input_div222.value=="" || input_div333.value=="") {
+        alert("Enter your user, password and code.\nIf you don't Registr then go and Sign Up");
+      }
+  }
+  save6.onclick=function() {
+      if(input_div1111.value==ortaq1.textContent && input_div2222.value==ortaq2.textContent && input_div3333.value==ortaq3.textContent && div4.textContent==ortaq_unii.textContent){
+          ortaq_index.textContent=ortaq3.textContent;
+
+          var a, b, c, d;
+          a=ortaq_index.textContent;
+          d=a.toString();
+          b=d.length-1;
+          c=d[b];
+
+          if(c==1){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Bachelors for You";
+          }
+          if(c==2){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Master for You";
+          }
+
+          var ad1=document.getElementById("table1").value;
+          localStorage.setItem("yer1", ad1);
+          var ad2=document.getElementById("table2").value;
+          localStorage.setItem("yer2", ad2);
+
+          newwindow=window.open("portfolio3_table.html");
+      }
+      if(input_div1111.value!=ortaq1.textContent || input_div2222.value!=ortaq2.textContent || input_div3333.value!=ortaq3.textContent || div4.textContent!=ortaq_unii.textContent){
+          alert("Your code or Your password or Your user is wrong");
+      }
+      if (input_div1111.value=="" || input_div2222.value=="" || input_div3333.value=="") {
+        alert("Enter your user, password and code.\nIf you don't Registr then go and Sign Up");
+      }
+  }
+  save7.onclick=function() {
+      if(input_div11111.value==ortaq1.textContent && input_div22222.value==ortaq2.textContent && input_div33333.value==ortaq3.textContent && div5.textContent==ortaq_unii.textContent){
+          ortaq_index.textContent=ortaq3.textContent;
+
+          var a, b, c, d;
+          a=ortaq_index.textContent;
+          d=a.toString();
+          b=d.length-1;
+          c=d[b];
+
+          if(c==1){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Bachelors for You";
+          }
+          if(c==2){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Master for You";
+          }
+
+          var ad1=document.getElementById("table1").value;
+          localStorage.setItem("yer1", ad1);
+          var ad2=document.getElementById("table2").value;
+          localStorage.setItem("yer2", ad2);
+
+          newwindow=window.open("portfolio3_table.html");
+      }
+      if(input_div11111.value!=ortaq1.textContent || input_div22222.value!=ortaq2.textContent || input_div33333.value!=ortaq3.textContent || div5.textContent!=ortaq_unii.textContent){
+          alert("Your code or Your password or Your user is wrong");
+      }
+      if (input_div11111.value=="" || input_div22222.value=="" || input_div33333.value=="") {
+        alert("Enter your user, password and code.\nIf you don't Registr then go and Sign Up");
+      }
+  }
+  save8.onclick=function() {
+      if(input_div111111.value==ortaq1.textContent && input_div222222.value==ortaq2.textContent && input_div333333.value==ortaq3.textContent && div6.textContent==ortaq_unii.textContent){
+        ortaq_index.textContent=ortaq3.textContent;
+
+          var a, b, c, d;
+          a=ortaq_index.textContent;
+          d=a.toString();
+          b=d.length-1;
+          c=d[b];
+
+          if(c==1){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Bachelors for You";
+          }
+          if(c==2){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Master for You";
+          }
+
+          var ad1=document.getElementById("table1").value;
+          localStorage.setItem("yer1", ad1);
+          var ad2=document.getElementById("table2").value;
+          localStorage.setItem("yer2", ad2);
+          
+          newwindow=window.open("portfolio3_table.html");
+      }
+      if(input_div111111.value!=ortaq1.textContent || input_div222222.value!=ortaq2.textContent || input_div333333.value!=ortaq3.textContent || div6.textContent!=ortaq_unii.textContent){
+          alert("Your code or Your password or Your user is wrong");
+      }
+      if (input_div111111.value=="" || input_div222222.value=="" || input_div333333.value=="") {
+        alert("Enter your user, password and code.\nIf you don't Registr then go and Sign Up");
+      }
+  }
+  save9.onclick=function() {
+      if(input_div1111111.value==ortaq1.textContent && input_div2222222.value==ortaq2.textContent && input_div3333333.value==ortaq3.textContent && div7.textContent==ortaq_unii.textContent){
+          ortaq_index.textContent=ortaq3.textContent;
+
+          var a, b, c, d;
+          a=ortaq_index.textContent;
+          d=a.toString();
+          b=d.length-1;
+          c=d[b];
+
+          if(c==1){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Bachelors for You";
+          }
+          if(c==2){
+              table1.value=ortaq_unii.textContent;
+              table2.value="Result of Master for You";
+          }
+
+          var ad1=document.getElementById("table1").value;
+          localStorage.setItem("yer1", ad1);
+          var ad2=document.getElementById("table2").value;
+          localStorage.setItem("yer2", ad2);
+
+          newwindow=window.open("portfolio3_table.html");
+      }
+      if(input_div1111111.value!=ortaq1.textContent || input_div2222222.value!=ortaq2.textContent || input_div3333333.value!=ortaq3.textContent || div7.textContent!=ortaq_unii.textContent){
+          alert("Your code or Your password or Your user is wrong");
+      }
+      if (input_div1111111.value=="" || input_div2222222.value=="" || input_div3333333.value=="") {
+        alert("Enter your user, password and code.\nIf you don't Registr then go and Sign Up");
+      }
+  }      
+      
+</script>
+</body>
+</html>

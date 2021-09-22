@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="portfolio3_table.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.js">
+
+	<title>Your Table</title>
+</head>
+<body>
+      <div class="box1">
+      	<span id="add1" class="box2"></span><br><br>
+      	<span id="add2" class="box3"></span>
+      </div>
+
+      <table class="table table1">
+        <tr>
+          <td>Name: </td>
+          <td>Sur Name: </td>
+          <td>Father Name: </td>
+          <td>Specialty</td>
+          <td>Group</td>
+          <td>Course</td>
+        </tr>
+        <tr>
+          <th id="add3" class="box4"></th>
+          <th id="add4" class="box4"></th>
+          <th id="add5" class="box4"></th>
+          <th>Computer Science</th>
+          <th>K171</th>
+          <th>II</th>
+        </tr>
+      </table>
+
+        <head>
+          <div class="tr1">
+            <h3>Your Result by Subject for Current Semester</h3>
+          </div>
+        </head>
+
+      <table class="table table-striped table-hover">
+      	<tbody>
+      		<tr class="tr2">
+            <th class="th1">#</th>
+      			<th>Day - Oktober</th>
+      			<td>3</td>
+      			<td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+      		</tr>
+      		<tr>
+            <th class="th1">1</th>
+      			<th>Web proqramları üzrə biliklərin təkminləşdirilməsi</th>
+      			<td>10</td>
+      			<td>9</td>
+      			<td>9</td>
+      			<td>10</td>
+      			<td>8</td>
+      			<td>i/e</td>
+      			<td>10</td>
+      			<td>10</td>
+      			<td>9</td>
+      			<td>8</td>
+      		</tr>
+      		<tr>
+            <th class="th1">2</th>
+      			<th>Proqramlaşdırma üzrə ümumi məlumat</th>
+      			<td>8</td>
+      			<td>9</td>
+      			<td>9</td>
+      			<td>10</td>
+      			<td>8</td>
+      			<td>9</td>
+      			<td>10</td>
+      			<td>10</td>
+      			<td>9</td>
+      			<td>8</td>
+      		</tr>
+      		<tr>
+            <th class="th1">3</th>
+      			<th>Bizi əhatə edən dünyada Fəlsəfə</th>
+      			<td>10</td>
+      			<td>10</td>
+      			<td>9</td>
+      			<td>10</td>
+      			<td>10</td>
+      			<td>i/e</td>
+      			<td>10</td>
+      			<td>10</td>
+      			<td>9</td>
+      			<td>8</td>
+      		</tr>
+      		<tr>
+            <th class="th1">4</th>
+      			<th>Gündəmi idarə edən Sahə</th>
+      			<td>8</td>
+      			<td>9</td>
+      			<td>7</td>
+      			<td>10</td>
+      			<td>8</td>
+      			<td>i/e</td>
+      			<td>10</td>
+      			<td>8</td>
+      			<td>9</td>
+      			<td>8</td>
+      		</tr>
+      	</tbody>
+      </table>
+             
+             <div class="box5">I Course I Semester</div>
+      <table class="table table-hover">
+        <tbody>
+          <tr>
+            <th>#</th>
+            <td>Subject</td>
+            <td>Enterance Score</td>
+            <td>Exit Score</td>
+            <td>Final Score</td>
+          </tr>
+          <tr>
+            <th>1</th>
+            <td>Nədir Mənim İntisasim?</td>
+            <td>43</td>
+            <td>41</td>
+            <td>84</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Proqramlaşdırmanın əsasları</td>
+            <td>43</td>
+            <td>39</td>
+            <td>82</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>Alqoritm</td>
+            <td>49</td>
+            <td>48</td>
+            <td>97</td>
+          </tr>
+        </tbody>
+      </table>
+              <div class="box5">I Course II Semester</div>
+      <table class="table table-hover">
+        <tbody>
+          <tr>
+            <th>#</th>
+            <td>Subject</td>
+            <td>Enterance Score</td>
+            <td>Exit Score</td>
+            <td>Final Score</td>
+          </tr>
+          <tr>
+            <th>1</th>
+            <td>Back-End Developer</td>
+            <td>38</td>
+            <td>41</td>
+            <td>79</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Proqramlaşdırmanın əsasları</td>
+            <td>43</td>
+            <td>39</td>
+            <td>82</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>Front-End Developer</td>
+            <td>47</td>
+            <td>48</td>
+            <td>95</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+<script src="bootstrap.js"></script>
+<script type="text/javascript">
+	document.getElementById('add1').textContent=localStorage.getItem("yer1");
+	document.getElementById('add2').textContent=localStorage.getItem("yer2");
+  document.getElementById('add3').textContent=localStorage.getItem("yer3");
+  document.getElementById('add4').textContent=localStorage.getItem("yer4");
+  document.getElementById('add5').textContent=localStorage.getItem("yer5");
+</script>
+</body>
+</html>

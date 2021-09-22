@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-x: hidden;
+	font-size: 100%;
+}
+html::-webkit-scrollbar{
+	width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background: gray;
+}
+html::-webkit-scrollbar-thumb{
+	background: blue;
+}
+
+.container{
+	background: white;
+}
+.span1{
+	padding-top: .5%;
+	font-size: 400%;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(24, 23, 59);
+	font-family: serif;
+	background: gray;
+	border-bottom: .3rem solid blue;
+}
+.span2{
+	margin-left: 5%;
+	padding-bottom: 1%;
+	font-size: 150%;
+	font-family: serif;
+	color: rgb(24, 23, 59);
+}
+hr{
+	width: 80%;
+	margin-left: 5rem;
+}
+.box1{
+	width: auto;
+	text-align: center;
+	padding-top: 4%;
+}
+.box1 .btn1{
+	width: 20%;
+	margin-right: 5%;
+	font-size: 160%;
+    font-family: serif;
+    border: 1px solid rgb(24, 25, 59);
+}
+.box1 .btn2{
+	width: 20%;
+	margin-left: 5%;
+	font-size: 160%;
+	font-family: serif;
+    border: 1px solid rgb(24, 25, 59);
+}
+.box2{
+	cursor: pointer;
+	font-size: 150%;
+	font-family: serif;
+	text-align: center;
+	padding-top: 7%;
+	margin-bottom: 15px;
+}
+.box2 .sec1{
+	display: none;
+	text-align: left;
+	padding: 1rem 1.5rem;
+	margin-left: 18%;
+}
+.box2 .sec1 .sec3_div{
+	padding: .5rem 1.5rem;
+}
+.box2 .sec1 #div1:hover{
+	background: skyblue;
+}
+.box2 .sec1 #div2:hover{
+	background: skyblue;
+}
+.box2 .sec1 #div3:hover{
+	background: skyblue;
+}
+.box2 .sec1 #div4:hover{
+	background: skyblue;
+}
+.box2 .sec1 #div5:hover{
+	background: skyblue;
+}
+.box2 .sec1 #div6:hover{
+	background: skyblue;
+}
+.box2 .sec1 #div7:hover{
+	background: skyblue;
+}
+.box3{
+	width: 70%;
+	font-size: 120%;
+	margin: 5rem;
+	margin-left: 2rem;
+	font-family: serif;
+}
+#btntring{
+	margin-left: 76%;
+	margin-top: -29%;
+}
+.box3_2{
+	width: 70%;
+	font-size: 120%;
+	margin: 5rem;
+	margin-left: 2rem;
+	font-family: serif;
+}
+#btntraz{
+	margin-left: 76%;
+	margin-top: -25%;
+}
+.inputlabel{
+	width: 20%;
+}
+.input{
+	text-transform: capitalize;
+	background: skyblue;
+	color: black;
+	font-family: serif;
+	font-style: italic;
+	font-size: 120%;
+	padding-left: 2%;
+}
+.input::placeholder{
+	padding-left: 2%;
+}
+
+#input4, #input6, #input7, #input8, #input9{
+	text-transform: none;
+}
+
+#input_div1, #input_div2, #input_div3, #input_div11, #input_div22, #input_div33, #input_div111, #input_div222, #input_div333, #input_div1111, #input_div2222, #input_div3333{
+	text-transform: none;
+}
+#input_div11111, #input_div22222, #input_div33333, #input_div111111, #input_div222222, #input_div333333, #input_div1111111, #input_div2222222, #input_div3333333{
+	text-transform: none;
+}
+
+
+@media (max-width: 1200px){
+	html{
+		font-size: 80%;
+	}
+}
+
+@media (max-width: 991px){
+	html{
+		font-size: 60%;
+	}
+	.box3, .box3_2{
+		font-size: 200%;
+	}
+}
+
+@media (max-width: 550px){
+	html{
+		font-size: 40%;
+	}
+	.box3, .box3_2{
+		font-size: 200%;
+	}
+	#btntring, #btntraz{
+		font-size: 130%;
+	}
+	.input, .inputlabel{
+		font-size: 160%;
+	}
+}

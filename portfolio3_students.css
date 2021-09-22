@@ -1,0 +1,301 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 80%;
+	overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+	background: gray;
+}
+html::-webkit-scrollbar-thumb{
+	background: blue;
+}
+
+.box1{
+	font-size: 250%;
+	text-align: center;
+	padding: 1% 0;
+	background: gray;
+	color: rgb(24, 23, 56);
+	font-family: serif;
+	border-bottom: 3px solid blue;
+}
+.box2{
+	margin-top: 5%;
+}
+.box2 .box3{
+	width: 45%;
+	padding-left: 1%;
+}
+.box2 .box3 .labell{
+	font-size: 150%;
+	color: black;
+	font-family: serif;
+	width: 30%;
+	padding-left: 2%;
+}
+.box2 .box3 .inputt{
+	display: inline-block;
+	font-size: 150%;
+	color: gray;
+	font-family: serif;
+	width: 30%;
+	border: none;
+	padding-left: 2%;
+}
+.box2 div{
+	float: left;
+}
+.box2 .box4{
+	width: 45%;
+	margin-left: 4%;
+}
+.box2 .box4 .labell{
+	font-size: 150%;
+	color: black;
+	font-family: serif;
+	width: 30%;
+	padding-left: 2%;
+}
+.box2 .box4 .inputt{
+	text-transform: capitalize;
+	display: inline-block;
+	font-size: 150%;
+	color: gray;
+	font-family: serif;
+	width: 30%;
+	border: none;
+	padding-left: 2%;
+}
+#s_mail, #user, #pass{
+	text-transform: none;
+}
+
+.box2 .box4 .img{
+	padding-left: 2%;
+	width: 30%;
+	height: 30%;
+}
+.box2 .box4 .img img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid blue;
+}
+.balansLabel{
+	width: 10%;
+	font-size: 150%;
+	margin-left: 3%;
+	margin-top: 2%;
+	font-family: serif;
+}
+.balans{
+	display: inline-block;
+	width: 10%;
+	margin-left: 3%;
+	margin-top: .5%;
+}
+.add{
+	margin-top: .5%;
+}
+.sec2{
+	margin-top: 5%;
+	margin-left: 15%;
+	border: none;
+	font-family: serif;
+}
+.sec3{
+	margin-left: 3%;
+	border: none;
+	font-family: serif;
+}
+.code1{
+	font-weight: bold;
+	font-family: serif;
+	width: 15%;
+	margin-left: 3.5%;
+	margin-top: 5%;
+}
+.code{
+	font-family: serif;
+	text-align: center;
+    display: inline-block;
+    width: 25%;
+    color: white;
+    border: 1px solid deepskyblue;
+    margin-top: .2%;
+    margin-left: 3%;
+    border-radius: 5%;
+    padding: .5% 0;
+    background: rgb(11, 94, 215);
+}
+.userlabel{
+	font-family: serif;
+	font-size: 120%;
+	margin-left: 20%;
+}
+.user{	
+	padding-left: 2%;
+	margin-left: 5%;
+	font-family: serif;
+	font-size: 120%;
+}
+.enter{
+	margin-left: 35%;
+	margin-top: -2.3%;
+	font-family: serif;
+}
+.table{
+	font-size: 150%;
+	font-family: serif;
+	margin-left: 1%;
+	margin-top: 3%;
+}
+.uni{
+	font-family: serif;
+	text-align: center;
+	width: 40%;
+	font-size: 150%;
+	margin-left: 39%;
+	margin-top: -14%;
+	margin-bottom: 5%;
+	color: blue;
+}
+.img11{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#uni1, #uni2, #uni3, #uni4, #uni5, #uni6, #uni7{
+	display: none;
+}
+
+
+.inputlabel{
+	width: 20%;
+}
+.input{
+	text-transform: capitalize;
+	background: skyblue;
+	color: black;
+	font-family: serif;
+	font-style: italic;
+	font-size: 120%;
+	padding-left: 2%;
+}
+.input::placeholder{
+	padding-left: 2%;
+}
+
+
+
+
+@media (max-width: 1260px){
+	.balansLabel{
+		margin-left: 3%;
+		margin-top: 3%;
+		width: 60%;
+	}
+	.box2 .box3{
+		margin-left: 1%;
+	}
+	.userlabel{
+		margin-left: 2%;
+	}
+	.user{
+		margin-left: 1%;
+	}
+	.sec2{
+		margin-left: 3%;
+	}
+}
+
+
+
+@media (max-width: 1080px){
+	.enter{
+		margin-top: -3%;
+		margin-left: 45%;
+	}
+}
+
+
+@media(max-width: 736px){
+	.box2 div{
+		float: none;
+	}
+	.box2 .box3{
+		margin-left: 3%;
+		width: 80%;
+	}
+	.box2 .box4{
+		width: 80%;
+	}
+	.labell{
+		width: 42%;
+	}
+	.inputt{
+		width: 42%;
+	}
+	.userlabel{
+		margin-left: 20%;
+		margin-bottom: 5%;
+	}
+	.user{
+		margin-left: 15%;
+	}
+	.code{
+		color: black;
+		background: white;
+		border-bottom: 1px solid blue;
+		border-top: 1px solid blue;
+		border-left: none;
+		border-right: none;
+	}
+	.enter{
+		margin-left: 35%;
+		margin-top: -4%;
+	}
+}
+
+@media (max-width: 550px){
+	html{
+		font-size: 60%;
+	}
+	.box2 .box3{
+		margin-left: 1%;
+		width: 100%;
+	}
+	.box2 .box4{
+		margin-left: 1%;
+		width: 100%;
+	}
+	.labell{
+		width: 60%;
+	}
+	.userlabel{
+		margin-left: 10%;
+	}
+	.user{
+		margin-left: 30%;
+		margin-top: 2%;
+	}
+	.enter{
+		margin-left: 3%;
+		margin-top: 4%;
+	}
+	.sec2, .sec3{
+		margin-left: .05%;
+		font-size: 100%;
+	}
+	.uni{
+		width: 100%;
+		margin-left: 1%;
+		margin-top: 5%;
+		text-align: left;
+	}
+}
